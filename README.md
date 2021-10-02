@@ -1,11 +1,11 @@
 # STREET FOOD WEBSITE.
 1. [project description.]()
-2. [author/contributors]()
+2. [Author/contributors]()
 3. [project copy right and licencing]()
 
 
 # project description 
-Street food is a fast fcod and snacks vendor dealing with the following servces
+Street food is a fast food and snacks vendor dealing with the following servces
 1. [Snacks sale.](#)
 2. [Eatery for main dishes ](#)
 3. [Outside catering services]()
@@ -13,7 +13,7 @@ Street food is a fast fcod and snacks vendor dealing with the following servces
 
 # Author and contributors 
 1. [ERICK GITONGA NJERU -STUDENT at Moringa school]()
-2. [contributors - independent project- ip.]()
+2. [Contributors - independent project- ip.]()
 
 # ABOUT THE AUTHOR
 Erick Gitonga Njeru is a renown sofware development student currently enhansing his skills at Moringa school.
