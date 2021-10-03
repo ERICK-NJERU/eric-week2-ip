@@ -1,15 +1,168 @@
-
-  li {
-    display: inline;
-    justify-content: space-between;
-    padding: 60px;
-
- 
-  }
-  .bg { background-color: #649549;
-    }
-
-div H1 {color: #eaab1b;
+.container{
+  background-color: #E5E5E5;
+  overflow: hidden;
+  height: 500px;
 }
-span {color: #6CB840;}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  position: relative;
+  z-index: 2;
+}
+ul li{
+  list-style: none;
+  padding: 30px;
+  display: inline;
+}
+body{
+  font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+#street{
+  color: #6BB946;
+}
+#food{
+  color: #E8AF51;
+}
+.text{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+.sub-text{
+  width: 400px;
+  padding-left: 70px;
+}
+.circle{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 2px dotted #6BB946;
+  position: relative;
+  z-index: 1;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 2px solid transparent;
+}
+#image1{
+  transform: translate(-50px, 100px);
+}
+#image2{
+  transform: translate(-60px, -20px);
+}
+#image3{
+  transform: translate(0px, -90px);
+}
+#image4{
+  transform: translate(20px, 0px);
+  height: ;
+}
+#image5{
+  transform: translate(330px, -300px);
+}
+#image6{
+  transform: translate(350px, -10px);
+}
+#center{
+  transform: translate(200px, 50px);
+}
+.greencircle{
+  width: 800px;
+  height: 750px;
+  content: "";
+  border-radius: 60%;
+  background-color: #B8E79C;
+  transform: translate(800px, -1000px);
+}
 
+.twoimages{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+#coll{
+  padding-top: 150px;
+  width: 400px;
+}
+.exploremenu{
+  background-color: #EAF3E4;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+  text-align: center;
+}
+.burgers{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+}
+.bgs{
+  background-color: white;
+  width: 250px;
+  border-radius: 0px 0px 50px 0px;
+  height: 160px;
+  padding: 5px;
+}
+.colls{
+  display: flex;
+}
+.rows img{
+  transform: translate(-50px, 20px);
+}
+.hotdealscontent{
+  background-color: #CAECB5;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 100px; */
+  height: 700px;
+  text-align: center;   
+}
+.hotdeals{
+  background-color: #CAECB5;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* padding-left: 100px; */
+  height: 700px;
+  text-align: center;
+  margin-top: -20px;
+}
+.hothotdeals{
+  background-color: #CAECB5;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#combo{
+  color: #6BB946;
+}
+#juices{
+  padding-top: 150px;
+  width: 400px;
+  padding-right: 100px;
+  text-align: left;
+}
+#bgs{
+  transform: translate(90px, -230px);
+}
+input[type=submit]{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-color: #6BB946;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+#green{
+  color: #6BB946;
+}
