@@ -34,6 +34,16 @@ body{
   width: 400px;
   padding-left: 70px;
 }
+
+.greencircle{
+  width: 800px;
+  height: 750px;
+  content: "";
+  border-radius: 60%;
+  background-color: #B8E79C;
+  transform: translate(800px, -1000px);
+}
+
 .circle{
   width: 500px;
   height: 500px;
@@ -56,7 +66,7 @@ body{
 }
 #image4{
   transform: translate(20px, 0px);
-  height: ;
+  
 }
 #image5{
   transform: translate(330px, -300px);
@@ -66,14 +76,6 @@ body{
 }
 #center{
   transform: translate(200px, 50px);
-}
-.greencircle{
-  width: 800px;
-  height: 750px;
-  content: "";
-  border-radius: 60%;
-  background-color: #B8E79C;
-  transform: translate(800px, -1000px);
 }
 
 .twoimages{
@@ -115,13 +117,12 @@ body{
 .rows img{
   transform: translate(-50px, 20px);
 }
-.hotdealscontent{
+.hotdealselements{
   background-color: #CAECB5;
-  /* margin-left: 100px; */
-  /* margin-right: 100px; */
+ 
   display: flex;
   justify-content: space-between;
-  /* padding-left: 100px; */
+
   height: 700px;
   text-align: center;   
 }
@@ -129,9 +130,7 @@ body{
   background-color: #CAECB5;
   margin-left: 100px;
   margin-right: 100px;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* padding-left: 100px; */
+ 
   height: 700px;
   text-align: center;
   margin-top: -20px;
@@ -142,7 +141,7 @@ body{
   margin-right: 100px;
 }
 #combo{
-  color: #6BB946;
+  color: #6ab646;
 }
 #juices{
   padding-top: 150px;
@@ -151,11 +150,11 @@ body{
   text-align: left;
 }
 #bgs{
-  transform: translate(90px, -230px);
+  transform: translate(-250px, 00px);
 }
 input[type=submit]{
   width: 150px;
-  height: 40px;
+  height: 240px;
   text-align: center;
   border: none;
   background-color: #6BB946;
@@ -165,4 +164,58 @@ input[type=submit]{
 }
 #green{
   color: #6BB946;
+}
+.contactus{
+  background-color: #FFF5DD;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 20px;
+}
+input[type=email]{
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+::placeholder{
+ color: black; 
+}
+.send{
+  background-color: #6BB946;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  width: 200px;
+  height: 20px;
+}
+.footer{
+  display: flex;
+  background-color: #F0FAEC;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}
+.footerrows2{
+  display: flex;
+}
+.footerrows1{
+  width: 400px;
+  padding: 20px;
+}
+.footerrows{
+  width: 300px;
+  border-right:2px dotted #6BB946;
+}
+.instagram{
+  padding-top: 50px;
+}
+p{
+  color: #1F201E;
 }
