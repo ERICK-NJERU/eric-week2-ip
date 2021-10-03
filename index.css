@@ -1,23 +1,15 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border-color: lime;
-    justify-items: stretch;
-  }
-  
+
   li {
     display: inline;
     justify-content: space-between;
+    padding: 60px;
+
  
   }
-    div { background-color: #649549;
-        border: lightgray;
-    size: 5000;
+  .bg { background-color: #649549;
     }
-div
-H1 {color: #eaab1b;
+
+div H1 {color: #eaab1b;
 }
-span {color: #6CB840;
-} 
+span {color: #6CB840;}
+
