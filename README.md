@@ -21,7 +21,7 @@ Erick Gitonga Njeru is a renown sofware development student currently enhansing 
 ![image](ERICK.jpg)
 
 ## project livelink
-(https://erick-njeru.github.io/...........................
+https://erick-njeru.github.io/eric-week2-ip/
 
 PROJECT COPYRIGHT AND LICENCING
 
