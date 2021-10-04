@@ -1,39 +1,33 @@
-.container{
+.holder{
   background-color: #E5E5E5;
   overflow: hidden;
-  height: 500px;
+  height: 520px;
 }
-.menu{
+.menus{
   display: flex;
-  justify-content: space-between;
   padding-right: 50px;
   position: relative;
+  justify-content: space-between;
   z-index: 2;
 }
 ul li{
   list-style: none;
-  padding: 30px;
   display: inline;
-}
+  padding: 30px;}
 body{
   font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
-}
+  overflow-x: hidden;}
 #street{
-  color: #6BB946;
-}
+  color: #6BB946;}
 #food{
-  color: #E8AF51;
-}
+  color: #E8AF51;}
 .text{
   display: flex;
   justify-content: space-between;
-  padding-right: 80px;
-}
+  padding-right: 80px;}
 .sub-text{
   width: 400px;
-  padding-left: 70px;
-}
+  padding-left: 70px;}
 
 .greencircle{
   width: 800px;
@@ -41,8 +35,7 @@ body{
   content: "";
   border-radius: 60%;
   background-color: #B8E79C;
-  transform: translate(800px, -1000px);
-}
+  transform: translate(800px, -1000px);}
 
 .circle{
   width: 500px;
@@ -53,38 +46,29 @@ body{
   z-index: 1;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
-  border-top: 2px solid transparent;
-}
+  border-top: 2px solid transparent;}
 #image1{
-  transform: translate(-50px, 100px);
-}
+  transform: translate(-50px, 100px);}
 #image2{
-  transform: translate(-60px, -20px);
-}
+  transform: translate(-60px, -20px);}
 #image3{
   transform: translate(0px, -90px);
 }
 #image4{
-  transform: translate(20px, 0px);
-  
-}
+  transform: translate(20px, 0px);}
 #image5{
-  transform: translate(330px, -300px);
-}
+  transform: translate(330px, -300px);}
 #image6{
-  transform: translate(350px, -10px);
-}
+  transform: translate(350px, -10px);}
 #center{
-  transform: translate(200px, 50px);
-}
+  transform: translate(200px, 50px);}
 
-.twoimages{
+.imagess{
   display: flex;
   justify-content: space-between;
   padding-right: 100px;
-  padding-left: 100px;
-}
-#coll{
+  padding-left: 100px;}
+#columns{
   padding-top: 150px;
   width: 400px;
 }
